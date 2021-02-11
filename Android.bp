@@ -1,0 +1,34 @@
+android_app_import {
+    name: "TimeWeather",
+    owner: "motorola",
+    apk: "proprietary/product/app/TimeWeather/TimeWeather.apk",
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    required: [
+        "MotoSignatureApp",
+        "com.motorola.timeweatherwidget",
+        "hiddenapi-whitelist-com.motorola.timeweatherwidget",
+    ],
+    product_specific: true,
+}
+
+prebuilt_etc {
+    name: "com.motorola.timeweatherwidget",
+    owner: "motorola",
+    sub_dir: "permissions",
+    src: "proprietary/product/etc/permissions/com.motorola.timeweatherwidget.xml",
+    filename_from_src: true,
+    product_specific: true,
+}
+
+prebuilt_etc {
+    name: "hiddenapi-whitelist-com.motorola.timeweatherwidget",
+    owner: "motorola",
+    sub_dir: "sysconfig",
+    src: "proprietary/product/etc/sysconfig/hiddenapi-whitelist-com.motorola.timeweatherwidget.xml",
+    filename_from_src: true,
+    product_specific: true,
+}
+

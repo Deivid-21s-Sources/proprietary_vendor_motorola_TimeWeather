@@ -7,9 +7,9 @@
 
 To clone:
 
-`git clone https://gitlab.com/NemesisDevelopers/motorola/motorola_timeweather.git -b ten packages/apps/TimeWeather`
+`git clone https://gitlab.com/NemesisDevelopers/motorola/motorola_timeweather.git -b eleven packages/apps/TimeWeather`
 
-`git clone https://gitlab.com/NemesisDevelopers/motorola/motorola_motosignatureapp.git -b ten packages/apps/MotoSignatureApp`
+`git clone https://gitlab.com/NemesisDevelopers/motorola/motorola_motosignatureapp.git -b eleven packages/apps/MotoSignatureApp`
 
 Add this in your dependencies:
 
@@ -17,7 +17,7 @@ Add this in your dependencies:
  {
    "repository": "motorola_timeweather",
    "target_path": "packages/apps/TimeWeather",
-   "branch": "ten",
+   "branch": "eleven",
    "remote": "motorola"
  }
 ```

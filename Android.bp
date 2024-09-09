@@ -1,14 +1,14 @@
 android_app_import {
-    name: "TimeWeather",
-    owner: "motorola",
-    apk: "proprietary/product/app/TimeWeather/TimeWeather.apk",
-    presigned: true,
-    dex_preopt: {
-        enabled: false,
-    },
-    required: [
-        "MotoSignatureApp",
-    ],
-    product_specific: true,
+	name: "TimeWeather",
+	owner: "motorola",
+	apk: "proprietary/product/app/TimeWeather/TimeWeather.apk",
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	required: [
+		"MotoSignatureApp",
+	],
+	product_specific: true,
 }
-

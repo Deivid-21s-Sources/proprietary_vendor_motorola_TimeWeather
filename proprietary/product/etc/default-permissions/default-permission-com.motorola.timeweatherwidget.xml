@@ -1,7 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <exceptions>
     <exception package="com.motorola.timeweatherwidget">
         <permission name="android.permission.ACCESS_FINE_LOCATION" fixed="false"/>
         <permission name="android.permission.ACCESS_COARSE_LOCATION" fixed="false"/>
         <permission name="android.permission.ACCESS_BACKGROUND_LOCATION" fixed="false"/>
+        <permission name="android.permission.INTERNET" fixed="false"/>
+        <permission name="android.permission.FOREGROUND_SERVICE" fixed="false"/>
+        <permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
+        <permission name="android.permission.WAKE_LOCK" fixed="false"/>
+        <permission name="android.permission.ACCESS_NETWORK_STATE" fixed="false"/>
+        <permission name="android.permission.RECEIVE_BOOT_COMPLETED" fixed="false"/>
     </exception>
 </exceptions>

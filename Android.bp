@@ -8,8 +8,37 @@ android_app_import {
 		enabled: false,
 	},
 	required: [
-		"moto-checkin",
 		"com.motorola.motosignature",
+		"com.motorola.timeweatherwidget",
+		"default-permission-com.motorola.timeweatherwidget",
+		"moto-checkin",
 	],
+	product_specific: true,
+}
+
+prebuilt_etc {
+	name: "default-permission-com.motorola.timeweatherwidget",
+	owner: "motorola",
+	sub_dir: "default-permissions",
+	src: "proprietary/product/etc/default-permissions/default-permission-com.motorola.timeweatherwidget.xml",
+	filename_from_src: true,
+	product_specific: true,
+}
+
+prebuilt_etc {
+	name: "com.motorola.timeweatherwidget",
+	owner: "motorola",
+	sub_dir: "permissions",
+	src: "proprietary/product/etc/permissions/com.motorola.timeweatherwidget.xml",
+	filename_from_src: true,
+	product_specific: true,
+}
+
+prebuilt_etc {
+	name: "hiddenapi-whitelist-com.motorola.timeweatherwidget",
+	owner: "motorola",
+	sub_dir: "sysconfig",
+	src: "proprietary/product/etc/sysconfig/hiddenapi-whitelist-com.motorola.timeweatherwidget.xml",
+	filename_from_src: true,
 	product_specific: true,
 }
